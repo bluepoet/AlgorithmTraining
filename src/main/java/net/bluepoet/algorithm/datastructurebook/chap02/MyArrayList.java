@@ -1,4 +1,4 @@
-package datastructurebook.chap02;
+package net.bluepoet.algorithm.datastructurebook.chap02;
 
 import java.util.Arrays;
 import java.util.Collection;

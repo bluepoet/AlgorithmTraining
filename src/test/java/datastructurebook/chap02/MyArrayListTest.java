@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import net.bluepoet.algorithm.datastructurebook.chap02.MyArrayList;
 import org.junit.Before;
 import org.junit.Test;
 
