@@ -10,11 +10,13 @@ package net.bluepoet.algorithm.leetcode;
  * example
  * Input: s = "abcdefg", k = 2
  * Output: "bacdfeg"
+ * "abcdefg" => "dcbaefg", 4
  */
 public class ReverseString2 {
 	public static void main(String[] args) {
 		String s = "abc";
 		int k = 2;
+
 
 		if (s.length() < 2 * k) {
 			System.out.println(s.chars().collect(StringBuilder::new, (b, c) -> b.insert(0, (char) c), (b1, b2) -> b1.insert(0, b2)).toString());

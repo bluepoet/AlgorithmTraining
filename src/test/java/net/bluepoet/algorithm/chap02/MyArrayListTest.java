@@ -1,4 +1,4 @@
-package datastructurebook.chap02;
+package net.bluepoet.algorithm.chap02;
 
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
